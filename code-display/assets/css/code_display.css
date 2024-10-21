@@ -5,10 +5,11 @@
 
 .code-display-wrapper pre {
     background: #2d2d2d; /* Dark background */
-    padding: 1em;
+    padding: 0em;
+    margin: 0; /* Remove margin for flush edges */
+    border: none; 
     overflow: auto;
-    border-radius: 5px;
-    position: relative;
+    border-radius: 0; /* Remove border-radius to match wrapper */
 }
 
 .code-display-wrapper code {
